@@ -470,6 +470,7 @@ strOrUndefined = cognitoUserPoolEvent.request.challengeName;
 str = cognitoUserPoolEvent.request.privateChallengeParameters!['answer'];
 str = cognitoUserPoolEvent.request.challengeAnswer!;
 strOrUndefined = cognitoUserPoolEvent.request.password;
+boolOrUndefined = cognitoUserPoolEvent.request.userNotFound;
 boolOrUndefined = cognitoUserPoolEvent.response.answerCorrect;
 strOrUndefined = cognitoUserPoolEvent.response.smsMessage;
 strOrUndefined = cognitoUserPoolEvent.response.emailMessage;

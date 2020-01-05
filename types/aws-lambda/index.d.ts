@@ -33,6 +33,7 @@
 //                 Alex Bolenok <https://github.com/alex-bolenok-centralreach>
 //                 Marian Zange <https://github.com/marianzange>
 //                 Alexander Pepper <https://github.com/apepper>
+//                 Shoji Kuzukami<https://github.com/kuzukami>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.8
 
@@ -367,6 +368,7 @@ export interface CognitoUserPoolTriggerEvent {
         privateChallengeParameters?: { [key: string]: string };
         challengeAnswer?: string;
         password?: string;
+        userNotFound?: boolean;
     };
     response: {
         autoConfirmUser?: boolean;
